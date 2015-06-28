@@ -1,0 +1,16 @@
+{
+  "name": "language-gml",
+  "main": "./lib/language-gml",
+  "version": "0.1.0",
+  "description": "GML syntax highlighting",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "language-gml:toggle"
+  },
+  "repository": "https://github.com/coppolaemilio/language-gml",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "dependencies": {}
+}
