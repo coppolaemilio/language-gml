@@ -1,8 +1,7 @@
 'scopeName': 'source.gml'
 'comment': 'GML Syntax: version 0.1'
 'fileTypes': [
-  'gml',
-  'gmx'
+  'gml'
 ]
 'firstLineMatch': '\\A#!.*?\\bgml\\b'
 'name': 'GML'

@@ -1,0 +1,27 @@
+# Partially copied from https://github.com/atom/language-xml/blob/master/grammars/xml.cson
+'scopeName': 'source.gmx'
+'comment': 'GMX Syntax: version 0.1'
+'fileTypes': [
+  'gmx'
+]
+'patterns': [
+  {
+    'contentName': 'source.gml.embedded'
+    'begin':'(?i)(<)(string)(>)'
+    'end': '(?i)(<\/)(string)(>)'
+    'captures':
+      '1':
+        'name': 'punctuation.definition.tag.xml'
+      '2':
+        'name': 'entity.name.tag.xml'
+      '3':
+        'name': 'punctuation.definition.tag.xml'
+    'patterns': [
+      {'include': 'source.gml'}
+    ]
+  }
+  {
+    'name': 'text.xml.gmx'
+    'include': 'text.xml'
+  }
+]
